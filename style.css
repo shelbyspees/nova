@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #F5F8FA;
+  background-color: #1A1F23;
+}
+
+a {
+  color: #F5F8FA;
+}
+
+a:hover {
+  color: #3b94d9;
+}
+
+h1 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgba(145,165,180,.6);
+  /* hex version: #91a5b4 */
+}
+
+h1, h2, h3 {
+  padding-top: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+a.page-title {
+  text-decoration: none;
+}
+
+h1.page-title {
+  padding-top: 0;
+  text-decoration: none;
+}
+
+img.responsive {
+  max-width: 600px;
+  margin-right: 1em;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
