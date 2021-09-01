@@ -1,12 +1,12 @@
 body {
   font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 300;
   max-width: 600px;
   margin: 0 auto;
   padding: 1em;
   color: #F5F8FA;
-  background-color: #1A1F23;
+  background-color: #030303;
 }
 
 a {
@@ -35,6 +35,7 @@ a.page-title {
 h1.page-title {
   padding-top: 0;
   text-decoration: none;
+  font-size: 2.8em;
 }
 
 img.responsive {
