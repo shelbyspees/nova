@@ -39,6 +39,7 @@ h1.page-title {
 }
 
 img.responsive {
+  width: 100%;
   max-width: 600px;
   margin-right: 1em;
 }
