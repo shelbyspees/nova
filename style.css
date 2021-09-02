@@ -1,6 +1,6 @@
 body {
-  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 21px;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 27px;
   font-weight: 300;
   width: 90%;
   max-width: 800px;
@@ -8,6 +8,12 @@ body {
   padding: 1em;
   color: #F5F8FA;
   background-color: #030303;
+}
+
+@media (max-width: 684px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 a {
