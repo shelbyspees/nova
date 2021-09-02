@@ -10,12 +10,6 @@ body {
   background-color: #030303;
 }
 
-@media (max-width: 684px) {
-  body {
-    font-size: 18px;
-  }
-}
-
 a {
   color: #F5F8FA;
 }
@@ -72,11 +66,20 @@ img.responsive {
 
 footer {
   padding-top: 2em;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   color: #999;
 }
 
 footer > p > a {
   color: #999;
+}
+
+@media (max-width: 684px) {
+  body {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 14px;
+  }
 }
