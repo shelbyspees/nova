@@ -1,3 +1,11 @@
 baseURL = 'https://nova.spees.dev/'
 languageCode = 'en-us'
-title = 'Nova Spees'
+title = 'nova spees'
+
+[params]
+description = 'Nova Spees is a five-year-old pitbull terrier.'
+
+[markup.goldmark.renderer]
+  # required to render embedded html in content pages
+  # like the embedded twitter timeline
+  unsafe = true 
