@@ -1,7 +1,7 @@
 ---
+title: "about"
+url: "/"
 ---
-
-## about Nova
 
 Nova is a five-year-old pitbull terrier.
 

@@ -1,7 +1,7 @@
 ---
+title: "tweets from @novaspees"
+url: "/tweets"
 ---
-
-## tweets from [@novaspees](https://twitter.com/novaspees)
 
 <a class="twitter-timeline"
   data-theme="dark"
