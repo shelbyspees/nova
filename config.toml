@@ -11,7 +11,7 @@ disableKinds = ['taxonomy', 'term', 'section']
   description = 'Nova Spees is a five-year-old pitbull terrier.'
   # used in <footer> content
   author = 'Team Nova'
-  authorUrl = "https://github.com/shelbyspees/nova"
+  authorUrl = "https://github.com/spondrak/nova"
   # disallow search engines from indexing this page, used in <head>
   noindex = true
 
