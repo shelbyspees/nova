@@ -2,6 +2,9 @@ baseURL = 'https://nova.spees.dev/'
 languageCode = 'en-us'
 title = 'nova spees'
 
+# disable unused Hugo features
+disableKinds = ['taxonomy', 'term', 'section']
+
 [params]
 description = 'Nova Spees is a five-year-old pitbull terrier.'
 
