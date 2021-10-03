@@ -1,8 +1,9 @@
 <head>
   <title>{{ .Site.Title }}</title>
   <meta charset="utf-8">
-  <meta name="Shelby Spees" content="{{ .Site.Title }}">
+  <meta name="author" content="{{ .Site.Params.Author }}">
   <meta name="description" content="{{ .Site.Params.Description }}">
+  {{ with .Site.Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
