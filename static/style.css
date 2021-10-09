@@ -25,6 +25,12 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
+div.site-header {
+  display: inline-flex;
+  align-items: flex-end;
+  padding-right: 0.25em;
+}
+
 a.site-header {
   text-decoration: none;
   font-size: 1.5em;
@@ -34,6 +40,7 @@ a.site-header {
 svg.header-logo {
   width: 2em;
   fill: #FFFFFF;
+  padding-right: 0.25em;
 }
 
 a:hover svg.header-logo {
