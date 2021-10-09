@@ -2,8 +2,6 @@
 title: "tweets"
 ---
 
-Tweets from [@novaspees](https://twitter.com/novaspees).
-
 <a class="twitter-timeline"
   data-theme="dark"
   data-height="max"
