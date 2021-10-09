@@ -1,6 +1,7 @@
 body {
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 27px;
+  line-height: 36px;
   font-weight: 300;
   width: 90%;
   max-width: 800px;
@@ -76,9 +77,15 @@ footer {
   padding-top: 0.8em;
   border-top: 1px solid rgba(145,165,180,.6); /* hex version: #91a5b4 */
   margin-top: 2.4em;
-  font-size: 18px;
+  font-size: 0.6em;
   text-align: center;
   color: #999;
+}
+
+@media (max-width: 611px) {
+  footer {
+    font-size: 12px;
+  }
 }
 
 footer p {
@@ -90,11 +97,62 @@ footer a {
   color: #999;
 }
 
-@media (max-width: 684px) {
+/*
+<330
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+
+<430
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+
+
+<550
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+
+<660
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 300;
+
+>660 default
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 300;
+*/
+
+@media (max-width: 366px) {
+  body {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 367px) and (max-width: 477px) {
+  body {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 478px) and (max-width: 611px) {
   body {
     font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
   }
-  footer {
-    font-size: 14px;
+}
+
+@media (min-width: 612px) and (max-width: 684px) {
+  body {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 300;
   }
 }
