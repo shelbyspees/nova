@@ -25,10 +25,6 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-div.site-header {
-padding: 0;
-}
-
 a.site-header {
   text-decoration: none;
   font-size: 1.5em;
@@ -44,7 +40,7 @@ a:hover svg.header-logo {
   fill: #3b94d9;
 }
 
-nav > ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,13 +48,17 @@ nav > ul {
   padding-left: 3.5em;
 }
 
-nav > ul > li {
+nav li {
   display: inline;
-  padding-right: 0.5em;
+  padding-right: 0.8em;
 }
 
-nav > ul > li > a {
+nav a {
   text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 img {
@@ -74,12 +74,12 @@ footer {
   color: #999;
 }
 
-footer > p {
+footer p {
   margin: 0;
   padding: 0;
 }
 
-footer > p > a {
+footer a {
   color: #999;
 }
 
