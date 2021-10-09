@@ -25,14 +25,24 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-a.site-title {
+div.site-header {
+width: 50%;
+padding: 0;
+}
+
+a.site-header {
   text-decoration: none;
   font-size: 1.5em;
   font-family: 'Raleway', sans-serif;
 }
 
-header {
-  display: inline-flex;
+svg.header-logo {
+  width: 2em;
+  fill: #FFFFFF;
+}
+
+a:hover svg.header-logo {
+  fill: #3b94d9;
 }
 
 nav > ul {
@@ -40,12 +50,12 @@ nav > ul {
   margin: 0;
   padding: 0;
   padding-top: 0.5em;
-  padding-left: 1.5em;
+  padding-left: 3.5em;
 }
 
 nav > ul > li {
   display: inline;
-  padding-right: 1em
+  padding-right: 0.5em;
 }
 
 nav > ul > li > a {
