@@ -17,3 +17,35 @@ and anyway that's the big bang
 - Rule #4: Dancing at your food puts it more at ease.
 - Rule #5: If you need something (or you just want it bad enough),
   all you have to do is moo.
+
+## nova rhymes
+
+Nova slobber, Nova spit  
+Nova pretty pitty pit
+
+Part is goat, part is hog  
+Nova's a Chimera dog
+
+Nova eats? Dinner tears  
+Also she has stage-right ears
+
+Nova slumber, Nova sprawl  
+Nova chews on every ball
+
+Nova whines, Nova cries  
+Nova snores with open eyes
+
+Nova poop, Nova fart  
+Nova always has my heart
+
+Nova sleep, Nova sleep  
+Nova's very good at sleep
+
+Nova tummy, Nova lick  
+Nova crazy crazy kick
+
+Nova crazy crazy dog  
+Holy shit what the fuck
+
+Nova Nova, Nova Nova  
+Nova Nova Nova dog
