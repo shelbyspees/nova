@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Light.ttf") format("truetype");
+  font-display: swap;
+}
+
 body {
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 27px;
