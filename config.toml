@@ -1,4 +1,4 @@
-baseURL = 'https://nova.spees.dev/'
+baseURL = 'https://nova.spees.dog/'
 languageCode = 'en-us'
 # used in <head> metadata, visible in browser tab
 title = 'nova spees'
