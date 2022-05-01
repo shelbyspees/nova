@@ -7,3 +7,13 @@
 
 [build.environment]
   HUGO_VERSION = "0.88.1"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Multi-value headers are expressed with multi-line strings.
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
